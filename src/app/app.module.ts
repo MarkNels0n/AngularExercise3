@@ -3,10 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HighlightDirective } from './shared/directives/highlight.directive';
+import { HeaderComponent } from './shared/components/header/header.component';
+import { CommandBarComponent } from './shared/components/command-bar/command-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HighlightDirective,
+    HeaderComponent,
+    CommandBarComponent,
+
   ],
   imports: [
     BrowserModule,
